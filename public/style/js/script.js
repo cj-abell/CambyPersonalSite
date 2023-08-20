@@ -4,23 +4,23 @@ $( document ).ready(function() {
                 $("#work_scroll").fadeOut();
                 $("#contact_scroll").fadeOut();
 
-                $("#about").click(function(){
+                $("#about_me").click(function(){
                     $("#index").fadeOut();
-                    $("#about_scroll").fadeIn();
-                    $('#about_left').addClass('animated slideInLeft');
-                    $('#about_right').addClass('animated slideInRight');
+                    $("#about_me_scroll").fadeIn();
+                    $('#about_me_left').addClass('animated slideInLeft');
+                    $('#about_me_right').addClass('animated slideInRight');
                     });
-                $("#work").click(function(){
+                $("#career").click(function(){
                     $("#index").fadeOut();
-                    $("#work_scroll").fadeIn();
-                    $('#work_left').addClass('animated slideInLeft');
-                    $('#work_right').addClass('animated slideInRight');
+                    $("#career_scroll").fadeIn();
+                    $('#career_left').addClass('animated slideInLeft');
+                    $('#career_right').addClass('animated slideInRight');
                     });
-                $("#contact").click(function(){
+                $("#contact_me").click(function(){
                     $("#index").fadeOut();
-                    $("#contact_scroll").fadeIn();
-                    $('#contact_left').addClass('animated slideInLeft');
-                    $('#contact_right').addClass('animated slideInRight');
+                    $("#contact_me_scroll").fadeIn();
+                    $('#contact_me_left').addClass('animated slideInLeft');
+                    $('#contact_me_right').addClass('animated slideInRight');
                     });
                 
                 $(".back").click(function(){
