@@ -3,7 +3,7 @@ import BaseLayout from './baseLayout.html';
 ---
 
 <BaseLayout>
-	<div id="index">                                           <!-- Index starts here -->
+	<div id="index">
         <div class="container main">
             <div class="row home">
                 <div id = "index_left" class="col-md-6 left">
@@ -20,7 +20,9 @@ import BaseLayout from './baseLayout.html';
                     <div class="btn-group-vertical custom_btn animated slideinright">
                         <div id="career" class="btn btn-rabbit">Career</div>
                         <div id="about_me" class="btn btn-rabbit">About Me</div>
-                        <div id="contact_me" class="btn btn-rabbit">Contact Me</div>
+                        <a href="/contact_me">
+                            <div id="contact_me" class="btn btn-rabbit">Contact Me</div>
+                        </a>
                     </div>      
                     <div class="social">
                         <a href="https://github.com/cj-abell" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -31,5 +33,5 @@ import BaseLayout from './baseLayout.html';
 
             
         </div>
-    </div>                                                      <!-- index ends here -->
+    </div>
 </BaseLayout>
