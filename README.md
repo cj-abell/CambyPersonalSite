@@ -5,6 +5,6 @@ I wanted to gain some exposure to front-end technologies, since I don't typicall
 ## Tools
 - [Astro](https://astro.build/)
 - Netlify
-- TypesSript/JavaScript
+- TypeScript/JavaScript
 - CSS
 - HTML
